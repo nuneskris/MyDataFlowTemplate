@@ -1,4 +1,4 @@
-package com.nuneskris.study.gcp.dataflow.template;
+package template;
 
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;
