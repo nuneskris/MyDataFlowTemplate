@@ -29,7 +29,7 @@ public class MyFirstCustom {
                         new SerializableFunction<String, String>() {
                             @Override
                             public String apply(String file) {
-                                return "gs://cricket-score-study/" + file;
+                                return "gs://cricket-score-study/OutputNums.txt";
                             }
                         })));
 
