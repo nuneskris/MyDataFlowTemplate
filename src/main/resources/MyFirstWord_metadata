@@ -1,0 +1,22 @@
+{
+  "description": "An example pipeline that counts words in the input file.",
+  "name": "My Kris",
+  "parameters": [
+    {
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "name": "inputFile",
+      "helpText": "Path of the file pattern glob to read from - for example, gs://dataflow-samples/shakespeare/kinglear.txt",
+      "label": "Input Cloud Storage file(s)"
+    },
+    {
+      "regexes": [
+        "^gs:\\/\\/[^\\n\\r]+$"
+      ],
+      "name": "output",
+      "helpText": "Path and filename prefix for writing output files - for example, gs://MyBucket/counts",
+      "label": "Output Cloud Storage file(s)"
+    }
+  ]
+}
